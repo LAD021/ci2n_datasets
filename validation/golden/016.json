@@ -1,0 +1,88 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net6",
+                "Pos": "vss!"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net1",
+                "Pos": "net3"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net2",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net4",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "vss!",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "vss!",
+                "Collector": "vss!",
+                "Emitter": "net3"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "vss!",
+                "Collector": "vss!",
+                "Emitter": "net4"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net3",
+                "Gate": "net7",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net7",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net2",
+                "Gate": "net7",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "Diso_amp",
+            "port_connection": {
+                "InN": "net3",
+                "InP": "net2",
+                "Out": "net7"
+            }
+        }
+    ],
+    "ckt_type": "Bandgap"
+}

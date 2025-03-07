@@ -1,0 +1,249 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net31",
+                "Collector": "VEE",
+                "Emitter": "net22"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net32",
+                "Collector": "net32",
+                "Emitter": "VCC"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net9",
+                "Collector": "net17",
+                "Emitter": "VCC"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net28",
+                "Collector": "net10",
+                "Emitter": "net29"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net9",
+                "Collector": "net9",
+                "Emitter": "VCC"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net32",
+                "Collector": "net28",
+                "Emitter": "VCC"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "net28",
+                "Collector": "net1",
+                "Emitter": "net30"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net13",
+                "Collector": "net17",
+                "Emitter": "net31"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net18",
+                "Collector": "net17",
+                "Emitter": "net38"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net17",
+                "Collector": "VCC",
+                "Emitter": "net18"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net12",
+                "Collector": "net31",
+                "Emitter": "net14"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net7",
+                "Collector": "net7",
+                "Emitter": "VEE"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net7",
+                "Collector": "net28",
+                "Emitter": "net23"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net14",
+                "Collector": "net10",
+                "Emitter": "VEE"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "vin",
+                "Collector": "net32",
+                "Emitter": "net30"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net2",
+                "Collector": "net10",
+                "Emitter": "net24"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "vip",
+                "Collector": "net32",
+                "Emitter": "net29"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net1",
+                "Collector": "VCC",
+                "Emitter": "net2"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net2",
+                "Collector": "net1",
+                "Emitter": "net25"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "net10",
+                "Collector": "net31",
+                "Emitter": "net12"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net13",
+                "Pos": "net17"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net13",
+                "Pos": "net31"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net7",
+                "Pos": "net9"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net38",
+                "Pos": "net18"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net22",
+                "Pos": "net38"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net14"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net12"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net25"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net23"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VEE",
+                "Pos": "net24"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "net10",
+                "Pos": "net17"
+            }
+        }
+    ],
+    "ckt_type": "DISO-Amplifier"
+}

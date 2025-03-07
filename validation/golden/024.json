@@ -1,0 +1,301 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net1",
+                "Gate": "net10",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net9",
+                "Gate": "net10",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net10",
+                "Gate": "net8",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net9",
+                "Gate": "net8",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net8",
+                "Gate": "net8",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net7",
+                "Gate": "net7",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net7",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net5",
+                "Gate": "net5",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net3",
+                "Gate": "net5",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net1",
+                "Gate": "net3",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net36",
+                "Gate": "net9",
+                "Source": "net33"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net33",
+                "Gate": "net1",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net29",
+                "Gate": "net1",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net28",
+                "Gate": "net9",
+                "Source": "net29"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net25",
+                "Gate": "net9",
+                "Source": "net23"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net23",
+                "Gate": "net1",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net1",
+                "Gate": "net6",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net18",
+                "Gate": "net6",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net3",
+                "Gate": "net21",
+                "Source": "net18"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net5",
+                "Gate": "net19",
+                "Source": "net18"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net6",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net7",
+                "Gate": "net9",
+                "Source": "net16"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net16",
+                "Gate": "net1",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net15",
+                "Gate": "net1",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net8",
+                "Gate": "net9",
+                "Source": "net15"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net9",
+                "Gate": "net9",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net13",
+                "Gate": "GND",
+                "Source": "vdd!"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net10",
+                "Gate": "GND",
+                "Source": "net13"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net4",
+                "Pos": "net3"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net21",
+                "Pos": "net25"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net21"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net2",
+                "Pos": "net25"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net19"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net19",
+                "Pos": "net28"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net36"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "net1",
+                "Pos": "net4"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "GND",
+                "Collector": "GND",
+                "Emitter": "net2"
+            }
+        },
+        {
+            "component_type": "PNP",
+            "port_connection": {
+                "Base": "GND",
+                "Collector": "GND",
+                "Emitter": "net28"
+            }
+        }
+    ],
+    "ckt_type": "Bandgap"
+}

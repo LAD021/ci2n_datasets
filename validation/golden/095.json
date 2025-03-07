@@ -1,0 +1,105 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "VSS",
+                "Drain": "OUT",
+                "Gate": "net14",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "VSS",
+                "Drain": "net1",
+                "Gate": "net14",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "VSS",
+                "Drain": "net14",
+                "Gate": "net14",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "net1",
+                "Drain": "net22",
+                "Gate": "vP",
+                "Source": "net1"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "net1",
+                "Drain": "net17",
+                "Gate": "vN",
+                "Source": "net1"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "VDD",
+                "Drain": "OUT",
+                "Gate": "net22",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "VDD",
+                "Drain": "net17",
+                "Gate": "net17",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "VDD",
+                "Drain": "net22",
+                "Gate": "net17",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND0",
+                "Pos": "OUT"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "OUT",
+                "Pos": "net22"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "VREF",
+                "Pos": "net17"
+            }
+        },
+        {
+            "component_type": "Current",
+            "port_connection": {
+                "In": "VDD",
+                "Out": "net14"
+            }
+        }
+    ],
+    "ckt_type": "DISO-Amplifier"
+}

@@ -1,0 +1,100 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net28",
+                "Gate": "VBIAS3",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "OUT",
+                "Gate": "VBIAS2",
+                "Source": "net28"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net24",
+                "Gate": "VBIAS2$1",
+                "Source": "net27"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net27",
+                "Gate": "VBIAS3$1",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net17",
+                "Gate": "VBIAS1",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "OUT",
+                "Gate": "net24",
+                "Source": "net30"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net24",
+                "Gate": "net24",
+                "Source": "net23"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net30",
+                "Gate": "net23",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net23",
+                "Gate": "net23",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net28",
+                "Gate": "INN",
+                "Source": "net17"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net27",
+                "Gate": "INP",
+                "Source": "net17"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "OUT"
+            }
+        }
+    ],
+    "ckt_type": "DISO-Amplifier"
+}

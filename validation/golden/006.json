@@ -1,0 +1,82 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Diso_amp",
+            "port_connection": {
+                "InN": "net5",
+                "InP": "net2",
+                "Out": "net8"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net2",
+                "Gate": "net8",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net8",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net5",
+                "Gate": "net8",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net6"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net7",
+                "Pos": "net6"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net5",
+                "Pos": "net4"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "GND",
+                "Collector": "net7",
+                "Emitter": "GND"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "GND",
+                "Collector": "net2",
+                "Emitter": "GND"
+            }
+        },
+        {
+            "component_type": "NPN",
+            "port_connection": {
+                "Base": "GND",
+                "Collector": "net4",
+                "Emitter": "GND"
+            }
+        }
+    ],
+    "ckt_type": "Bandgap"
+}

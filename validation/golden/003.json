@@ -1,0 +1,56 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Current",
+            "port_connection": {
+                "In": "net3",
+                "Out": "VSS"
+            }
+        },
+        {
+            "component_type": "Voltage",
+            "port_connection": {
+                "Negative": "GND",
+                "Positive": "net4"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net2",
+                "Gate": "net4",
+                "Source": "net3"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net1",
+                "Gate": "net4",
+                "Source": "net3"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "VSS",
+                "Pos": "net3"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net2",
+                "Pos": "VDD"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net1",
+                "Pos": "VDD"
+            }
+        }
+    ],
+    "ckt_type": "DIDO-Amplifier"
+}

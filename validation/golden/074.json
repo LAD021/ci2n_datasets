@@ -1,0 +1,138 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "net27",
+                "Pos": "net23"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "net6",
+                "Pos": "net28"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net19",
+                "Pos": "net27"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net28",
+                "Pos": "net10"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net33",
+                "Gate": "net30",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net10",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net32",
+                "Gate": "net30",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net23",
+                "Gate": "net19",
+                "Source": "VSS"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net19",
+                "Gate": "net31",
+                "Source": "net32"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net10",
+                "Gate": "net31",
+                "Source": "net33"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net23",
+                "Gate": "net99",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net20",
+                "Gate": "vin-",
+                "Source": "net16"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net10",
+                "Gate": "net29",
+                "Source": "net14"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net19",
+                "Gate": "net29",
+                "Source": "net20"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net14",
+                "Gate": "vin+",
+                "Source": "net16"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "net99",
+                "Drain": "net16",
+                "Gate": "net8",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net6",
+                "Gate": "net8",
+                "Source": "VDD"
+            }
+        }
+    ],
+    "ckt_type": "DIDO-Amplifier"
+}

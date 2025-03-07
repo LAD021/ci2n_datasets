@@ -1,0 +1,71 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "Va",
+                "Gate": "net1",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "Vb",
+                "Gate": "net1",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "Diso_amp",
+            "port_connection": {
+                "InN": "net4",
+                "InP": "Va",
+                "Out": "net1"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "Vb"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net2",
+                "Pos": "Vb"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "Va"
+            }
+        },
+        {
+            "component_type": "Diode",
+            "port_connection": {
+                "In": "net2",
+                "Out": "GND"
+            }
+        },
+        {
+            "component_type": "Diode",
+            "port_connection": {
+                "In": "Va",
+                "Out": "GND"
+            }
+        },
+        {
+            "component_type": "Voltage",
+            "port_connection": {
+                "Negative": "Vb",
+                "Positive": "net4"
+            }
+        }
+    ],
+    "ckt_type": "Bandgap"
+}

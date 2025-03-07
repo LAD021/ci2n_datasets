@@ -1,0 +1,49 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Diso_amp",
+            "port_connection": {
+                "InN": "vref",
+                "InP": "net9",
+                "Out": "net10"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net7",
+                "Gate": "net10",
+                "Source": "vin"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net9"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net9",
+                "Pos": "net7"
+            }
+        },
+        {
+            "component_type": "Current",
+            "port_connection": {
+                "In": "net7",
+                "Out": "GND"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net7"
+            }
+        }
+    ],
+    "ckt_type": "LDO"
+}

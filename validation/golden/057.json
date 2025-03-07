@@ -1,0 +1,56 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vout-",
+                "Pos": "GND"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vout+",
+                "Pos": "GND"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vout+",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vout-",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vin+",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vin-",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "Dido_amp",
+            "port_connection": {
+                "InN": "net1",
+                "InP": "net2",
+                "OutN": "Vout-",
+                "OutP": "Vout+"
+            }
+        }
+    ],
+    "ckt_type": "DIDO-Amplifier"
+}

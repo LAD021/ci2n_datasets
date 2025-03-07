@@ -1,0 +1,109 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "AGND",
+                "Drain": "net6",
+                "Gate": "net2",
+                "Source": "AGND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "AGND",
+                "Drain": "net1",
+                "Gate": "net5",
+                "Source": "AGND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "AGND",
+                "Drain": "net5",
+                "Gate": "net5",
+                "Source": "AGND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Body": "AGND",
+                "Drain": "net2",
+                "Gate": "net2",
+                "Source": "AGND"
+            }
+        },
+        {
+            "component_type": "Current",
+            "port_connection": {
+                "In": "AVDD",
+                "Out": "net3"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "AGND",
+                "Pos": "VOUT"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "AVDD",
+                "Drain": "net1",
+                "Gate": "net1",
+                "Source": "AVDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "AVDD",
+                "Drain": "net6",
+                "Gate": "net1",
+                "Source": "AVDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "AVDD",
+                "Drain": "VOUT",
+                "Gate": "net6",
+                "Source": "AVDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "net3",
+                "Drain": "net4",
+                "Gate": "enb",
+                "Source": "net3"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "net4",
+                "Drain": "net5",
+                "Gate": "vp",
+                "Source": "net4"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Body": "net4",
+                "Drain": "net2",
+                "Gate": "vn",
+                "Source": "net4"
+            }
+        }
+    ],
+    "ckt_type": "DISO-Amplifier"
+}

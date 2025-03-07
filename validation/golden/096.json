@@ -1,0 +1,27 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Diso_amp",
+            "port_connection": {
+                "InN": "net5",
+                "InP": "IN",
+                "Out": "OUT"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "net5",
+                "Pos": "GND"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "OUT",
+                "Pos": "net5"
+            }
+        }
+    ],
+    "ckt_type": "SISO-Amplifier"
+}

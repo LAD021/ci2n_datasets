@@ -1,0 +1,93 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "OUTP",
+                "Gate": "VBB4",
+                "Source": "net33"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net33",
+                "Gate": "VB2",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net34",
+                "Gate": "VB2",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "OUTN",
+                "Gate": "VBB4",
+                "Source": "net34"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net31",
+                "Gate": "Vi2",
+                "Source": "net19"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net30",
+                "Gate": "Vi1",
+                "Source": "net19"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net19",
+                "Gate": "VB1",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net31",
+                "Gate": "Vcmc",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net30",
+                "Gate": "Vcmc",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "OUTN",
+                "Gate": "VBB3",
+                "Source": "net30"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "OUTP",
+                "Gate": "VBB3",
+                "Source": "net31"
+            }
+        }
+    ],
+    "ckt_type": "DIDO-Amplifier"
+}

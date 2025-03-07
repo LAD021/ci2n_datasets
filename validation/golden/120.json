@@ -1,0 +1,82 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Siso_amp",
+            "port_connection": {
+                "In": "net2",
+                "Out": "Vo"
+            }
+        },
+        {
+            "component_type": "Siso_amp",
+            "port_connection": {
+                "In": "net1",
+                "Out": "net2"
+            }
+        },
+        {
+            "component_type": "Siso_amp",
+            "port_connection": {
+                "In": "Vin",
+                "Out": "net1"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "Vo"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vo",
+                "Pos": "net1"
+            }
+        },
+        {
+            "component_type": "Cap",
+            "port_connection": {
+                "Neg": "Vo",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "Vo"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net2"
+            }
+        },
+        {
+            "component_type": "Res",
+            "port_connection": {
+                "Neg": "GND",
+                "Pos": "net1"
+            }
+        }
+    ],
+    "ckt_type": "SISO-Amplifier"
+}

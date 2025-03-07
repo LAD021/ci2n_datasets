@@ -1,0 +1,95 @@
+{
+    "ckt_netlist": [
+        {
+            "component_type": "Dido_amp",
+            "port_connection": {
+                "InN": "net11",
+                "InP": "net13",
+                "OutN": "net14",
+                "OutP": "net19"
+            }
+        },
+        {
+            "component_type": "Dido_amp",
+            "port_connection": {
+                "InN": "net18",
+                "InP": "net7",
+                "OutN": "net15",
+                "OutP": "net17"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "Vout-",
+                "Gate": "net15",
+                "Source": "net7"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "Vout+",
+                "Gate": "net17",
+                "Source": "net18"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net18",
+                "Gate": "net22",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "PMOS",
+            "port_connection": {
+                "Drain": "net7",
+                "Gate": "net22",
+                "Source": "VDD"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net9",
+                "Gate": "VCMFB",
+                "Source": "GND"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net11",
+                "Gate": "Vin-",
+                "Source": "net9"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "net13",
+                "Gate": "Vin+",
+                "Source": "net9"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "Vout+",
+                "Gate": "net19",
+                "Source": "net11"
+            }
+        },
+        {
+            "component_type": "NMOS",
+            "port_connection": {
+                "Drain": "Vout-",
+                "Gate": "net14",
+                "Source": "net13"
+            }
+        }
+    ],
+    "ckt_type": "DIDO-Amplifier"
+}
