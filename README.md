@@ -119,9 +119,25 @@ jumper_identification/
 ```
 
 **Annotation Format**:
-- Wire detection annotations in YOLO or segmentation format
-- File naming includes source prefix for traceability
-- Supports both bounding box and pixel-level segmentation tasks
+Uses YOLO OBB (Oriented Bounding Box) format, where each line contains annotation information for one jumper object:
+```
+class_id x1 y1 x2 y2 x3 y3 x4 y4
+```
+
+Where:
+- `class_id`: Jumper category ID
+- `x1 y1 x2 y2 x3 y3 x4 y4`: Normalized coordinates (0-1) of four corner points
+
+**Class Definitions**:
+- **0**: Horizontal jumpers
+- **1**: Vertical jumpers
+- **2**: Other direction jumpers
+
+**Annotation Examples**:
+```
+2 0.780811 0.743961 0.782371 0.74686 0.777691 0.752174 0.776131 0.749758
+1 0.331000 0.019000 0.493000 0.260000 0.776000 0.070000 0.613000 -0.171000
+```
 
 ### 4. Validation Dataset
 
